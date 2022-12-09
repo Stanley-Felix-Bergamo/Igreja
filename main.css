@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea,
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    padding: 25px 0;
+}
+
+
+.logo {
+    height: 100px;
+}
+
+.container {
+    width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    padding-right: 180px;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #ecf0f1;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .container {
+    padding: 25px 90px;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 5px;
+    font-size: 18px;
+    margin-left: 16px;
+}
+
+header nav a {
+    text-decoration: none;
+    margin-right: 8px;
+    color: #ecf0f1;
+
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+.imagem-igreja {
+    margin-right: 32px;
+}
+
+.imagem-pastor {
+    margin-left: 32px;
+}
+
+
+section img {
+    width: auto;
+    height: 390px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+form button {
+    background-color: black;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(86, 86, 86);
+}
+
+form button:active {
+    background-color: rgba(169, 169, 169, 0.518);
+}
+
+form textarea {
+    height: 180px;
+    resize: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.social-links img {
+    height: 32px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-methods h3{
+    padding: 10px 0;
+}
+footer {
+    background-color: black;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+}
