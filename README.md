@@ -2,6 +2,9 @@
 
 <p>Landing page da Igreja Comunidade Cristã de Sertãozinho</p> 
 <p>Saiba mais acessando o site <a href="https://stanley-felix-bergamo.github.io/Igreja/">Clicando aki</a></p> 
+<div align="center" >
+<img src="https://raw.githubusercontent.com/Stanley-Felix-Bergamo/Igreja/main/imagens/mac.png" alt="Emoji triste">
+</div>
 
 <h2>💻 Tecnologias utilizadas</h2>
 O projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
